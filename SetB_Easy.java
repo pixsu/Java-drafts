@@ -28,7 +28,6 @@ public class SetB_Easy {
             System.out.println("The enrollment price is 1500");
             System.out.println("The cost pet unit is 167");
             System.out.println("Max available units per term is 34");
-
             System.out.println("Enter number of units to take: ");
             units = sc.nextDouble();
 
@@ -53,7 +52,6 @@ public class SetB_Easy {
             System.out.println("The enrollment price is 1200");
             System.out.println("The cost pet unit is 125");
             System.out.println("Max available units per term is 22");
-
             System.out.println("Enter number of units to take: ");
             units = sc.nextDouble();
 
@@ -78,7 +76,6 @@ public class SetB_Easy {
             System.out.println("The enrollment price is 1750");
             System.out.println("The cost pet unit is 220");
             System.out.println("Max available units per term is 24");
-
             System.out.println("Enter number of units to take: ");
             units = sc.nextDouble();
 
@@ -126,9 +123,34 @@ public class SetB_Easy {
             default:
             System.out.println("Invalid input");
             break;
-
         }
-
+/*
+ * Write a program which will work like an enrollment system
+ * 
+ *Given: 
+*   Course   |  Enrollment Price  |  Cost per unit  |  Max Units |
+*   BSIT     |      1500          |       167       |     34     |
+*   BSAB     |      1200          |       125       |     22     |
+*   BSTM     |      1750          |       220       |     24     |
+*   BSFAM    |      2800          |       150       |     27     |
+*
+*Output:
+* Hi freshmen, What's your name? Gelo (inputted)
+* Here's our courses:
+* Press 1 for BSIT(Bachelor of Science in Instant Tunganga)
+* Press 2 for BSAB(Bachelor of Science in Antay Biyaya)
+* Press 3 for BSTM(Bachelor of Science in Tiktok Magdamag)
+* Press 4 for BSFARM(Bachelor of Science in Forever Asa Sa Magulang)
+* Enter your choice: 2 (inputted)
+* You choose BSAB
+* The enrollment price is 1200
+* The cost per unit is 125
+* Max available units per term is 22
+* 
+* Enter number of units to take: 21(inputted)
+* Total costing will be: 1200 + (125*21) = 3825
+* Thank you for enrolling Gelo and welcome to college of BSAB
+*/
 
     }
 }
