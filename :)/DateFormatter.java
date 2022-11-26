@@ -1,5 +1,5 @@
 import java.util.*;
-public class DateFormatterSwitch {
+public class DateFormatter {
     public static void main(String[] args){
 
       Scanner sc = new Scanner(System.in);
